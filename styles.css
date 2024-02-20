@@ -1,0 +1,38 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#gameArea {
+    width: 400px;
+    height: 400px;
+    background-color: #000;
+    position: relative;
+    display: flex;
+}
+
+.snake-head {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(95, 62, 56); /* Farbe des Schlangenkopfs */
+    position: absolute;
+}
+
+.snake-body {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(28, 72, 52); /* Grüne Farbe für den körper der Schlange */
+    position: absolute;
+}
+
+
+.food {
+    width: 20px;
+    height: 20px;
+    background-color: #f00;
+    position: absolute;
+}
